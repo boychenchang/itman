@@ -8,29 +8,10 @@ class IndexController extends Controller {
         $result = $client->test2();
         dump($result);
     }
-    /*
-    fsdfsdf
-    sfsdf
-    sdfsdf
-    sfdsdf
-    dfsfsdf
-     */
     /**
-     * 
+     * [setredis description]
+     * @return [type] [description]
      */
-/**
- * 
- * @return [type] [description]
- */
-/**
- * [setredis description]
- * Typecho Blog Platform
- * @copyright [copyright]
- * @author 123123 <[<email address>]>
- * @license  123123
- * @version   [123123]
- * @return    [t12312312ype]      [description]
- */
     public function setredis(){
         $redis = new \Redis();
     	$redis->connect('127.0.0.1', 6379);
