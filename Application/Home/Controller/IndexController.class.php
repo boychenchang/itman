@@ -8,6 +8,12 @@ class IndexController extends Controller {
         $result = $client->test2();
         dump($result);
     }
+<<<<<<< HEAD
+    /**
+     * [setredis description]
+     * @return [type] [description]
+     */
+=======
 
     public function testJoin(){
         // $re = mb_substr($temp_str,1);
@@ -43,6 +49,7 @@ class IndexController extends Controller {
         return join($new_str);
     }
 
+>>>>>>> 3c52e12ec2399fcbf2eab0c8b710c39a188db267
     public function setredis(){
         $redis = new \Redis();
     	$redis->connect('127.0.0.1', 6379);
