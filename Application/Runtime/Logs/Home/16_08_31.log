@@ -1,0 +1,26 @@
+[ 2016-08-31T17:21:10+08:00 ] ::1 /itman/index.php/home/index/testjoin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\IndexController::utf_substr(), called in D:\wamp\www\itman\Application\Home\Controller\IndexController.class.php on line 13 and defined D:\wamp\www\itman\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: len D:\wamp\www\itman\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: new_str D:\wamp\www\itman\Application\Home\Controller\IndexController.class.php 第 30 行.
+NOTIC: [2] join(): Argument must be an array D:\wamp\www\itman\Application\Home\Controller\IndexController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T17:21:23+08:00 ] ::1 /itman/index.php/home/index/testjoin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
